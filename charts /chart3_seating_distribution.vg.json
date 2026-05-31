@@ -3,7 +3,7 @@
   "width": 500,
   "height": 350,
   "title": "Distribution of Cafe Seating Capacity",
-  "data": { "url": "datasets/cafes-and-restaurants-with-seating-capacity.csv" },
+  "data": { "url": "https://raw.githubusercontent.com/Chenuka-ye/DataVis2179/refs/heads/main/datasets/cafes-and-restaurants-with-seating-capacity.csv" },
   "transform": [
     { "filter": "datum.industry_anzsic4_description == 'Cafes and Restaurants'" },
     { "filter": "datum.number_of_seats > 0 && datum.number_of_seats < 500" }
