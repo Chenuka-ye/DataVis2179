@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": { "url": "datasets/cafes-and-restaurants-with-seating-capacity.csv" },
+  "data": { "url": "https://raw.githubusercontent.com/Chenuka-ye/DataVis2179/refs/heads/main/datasets/cafes-and-restaurants-with-seating-capacity.csv" },
   "vconcat": [
     {
       "width": 500,
@@ -9,7 +9,7 @@
       "projection": { "type": "mercator", "center": [144.95, -37.81], "scale": 120000 },
       "layer": [
         {
-          "data": { "url": "datasets/melbourne_suburbs.topojson", "format": {"type": "topojson", "feature": "small-areas-for-census-of-land-use-and-employment-clue"} },
+          "data": { "url": "https://raw.githubusercontent.com/Chenuka-ye/DataVis2179/refs/heads/main/datasets/melbourne_suburbs.topojson", "format": {"type": "topojson", "feature": "small-areas-for-census-of-land-use-and-employment-clue"} },
           "mark": {"type": "geoshape", "fill": "#EAE2D6", "stroke": "white"}
         },
         {
