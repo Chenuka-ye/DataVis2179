@@ -1,5 +1,5 @@
 // Local Melbourne Data
-vegaEmbed("#map_chart", "./charts/chart1_interactive_map.vg.json").catch(console.error);
+vegaEmbed("#map_chart", "https://raw.githubusercontent.com/Chenuka-ye/DataVis2179/refs/heads/main/charts%20/chart1_interactive_map.vg.json").catch(console.error);
 vegaEmbed("#interactive_size_map", "./charts/chart2_interactive_size_map.vg.json").catch(console.error);
 vegaEmbed("#distribution_chart", "./charts/chart3_seating_distribution.vg.json").catch(console.error);
 vegaEmbed("#average_seating_chart", "./charts/chart4_average_seating.vg.json").catch(console.error);
